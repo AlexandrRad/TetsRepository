@@ -1,0 +1,371 @@
+[
+  {
+    "ContainingType": "RolesAPI.Controllers.UserController",
+    "Method": "AddNewUserAPI",
+    "RelativePath": "AddNewUserAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "WebAPI_React.Interfaces.IUserInterface\u002BAddAndRegistrationNewUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_React.Controllers.OrderController",
+    "Method": "AddOrders",
+    "RelativePath": "api/Order/AddOrders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "WebAPI_React.Model.Order",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_React.Controllers.OrderController",
+    "Method": "ShowOrders",
+    "RelativePath": "api/Order/ShowOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_React.Controllers.ProductController",
+    "Method": "CreateProductAPI",
+    "RelativePath": "api/Product/CreateProductAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "WebAPI_React.Model.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_React.Controllers.ProductController",
+    "Method": "DeleteProductById",
+    "RelativePath": "api/Product/DeleteProductById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_React.Controllers.ProductController",
+    "Method": "GetAllProductsAPI",
+    "RelativePath": "api/Product/GetAllProductsAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_React.Controllers.ProductController",
+    "Method": "GetOneProductByIdAPI",
+    "RelativePath": "api/Product/GetOneProductByIdAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_React.Controllers.ProductController",
+    "Method": "GetProductFilter",
+    "RelativePath": "api/Product/GetProductFilter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_React.Controllers.ProductController",
+    "Method": "GetProductSort",
+    "RelativePath": "api/Product/GetProductSort",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_React.Controllers.ProductController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Product/UpdateProduct",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "WebAPI_React.Model.Product",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_React.Controllers.ShopController",
+    "Method": "AddNewShopOrderAPI",
+    "RelativePath": "api/Shop",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shop",
+        "Type": "WebAPI_React.Interfaces.IShopInterface\u002BAddNewOrder",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_React.Controllers.ShopController",
+    "Method": "DeleteTovarOfShopAPI",
+    "RelativePath": "api/Shop/DeleteTovarOfShopAPI",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_React.Controllers.ShopController",
+    "Method": "GetAllShopAPI",
+    "RelativePath": "api/Shop/GetAllShopAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI_React.Controllers.TestController",
+    "Method": "TestJwtTokenAPI",
+    "RelativePath": "api/Test/TestJwtTokenAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Surname",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RolesAPI.Controllers.UserController",
+    "Method": "DeleteByAmdinAPI",
+    "RelativePath": "DeleteByAmdinAPI",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RolesAPI.Controllers.UserController",
+    "Method": "GenerateCodeAPI",
+    "RelativePath": "GenerateCodeAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "WebAPI_React.Data.FindYourPrice.Data.PostEmail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RolesAPI.Controllers.UserController",
+    "Method": "GetUserProfileAPI",
+    "RelativePath": "GetUserProfileAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RolesAPI.Controllers.UserController",
+    "Method": "GetUsersAPI",
+    "RelativePath": "GetUsersAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RolesAPI.Controllers.UserController",
+    "Method": "LoginingAPI",
+    "RelativePath": "LoginingAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "WebAPI_React.Interfaces.IUserInterface\u002BLoginingUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RolesAPI.Controllers.UserController",
+    "Method": "RegistrationAPI",
+    "RelativePath": "RegistrationAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "WebAPI_React.Interfaces.IUserInterface\u002BAddAndRegistrationNewUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RolesAPI.Controllers.UserController",
+    "Method": "RememberPasswordAPI",
+    "RelativePath": "RememberPasswordAPI",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RolesAPI.Controllers.UserController",
+    "Method": "UpdateByAdminAPI",
+    "RelativePath": "UpdateByAdminAPI",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "WebAPI_React.Interfaces.IUserInterface\u002BUpdateUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RolesAPI.Controllers.UserController",
+    "Method": "VerifyCodeAPI",
+    "RelativePath": "VerifyCodeAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "WebAPI_React.Data.FindYourPrice.Data.VerifyCode",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
