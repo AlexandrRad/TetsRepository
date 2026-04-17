@@ -13,6 +13,8 @@ namespace WebAPI_React.Interfaces
         void UpdateByAdmin(UpdateUserDTO user);
         void DeleteUser(int id);
         void RememberPassword(string email);
+
+        string Message(string str);
         public class AddAndRegistrationNewUserDTO
         {
         public string UserName { get; set; } = string.Empty;

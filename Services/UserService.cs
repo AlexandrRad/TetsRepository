@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using Org.BouncyCastle.Asn1.Cms.Ecc;
 using Org.BouncyCastle.Crypto.Generators;
+using Org.BouncyCastle.Tls;
 using WebAPI_React.Interfaces;
 using WebAPI_React.Model;
 using static WebAPI_React.Interfaces.IUserInterface;
@@ -138,6 +140,11 @@ namespace WebAPI_React.Services
             _context.Users.Update(user);
             _context.SaveChanges();
 
+        }
+
+        public string Message(string str)
+        {
+            return str;
         }
     }
 }

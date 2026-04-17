@@ -144,3 +144,4 @@ C:\Users\alexa\source\repos\RolesAPI\RolesAPI\bin\Debug\net9.0\Microsoft.Identit
 C:\Users\alexa\source\repos\RolesAPI\RolesAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\alexa\source\repos\RolesAPI\RolesAPI\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\alexa\source\repos\RolesAPI\RolesAPI\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\alexa\source\repos\RolesAPI\RolesAPI\obj\Debug\net9.0\WebAPI_React.sourcelink.json

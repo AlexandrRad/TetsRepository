@@ -306,6 +306,22 @@
   },
   {
     "ContainingType": "RolesAPI.Controllers.UserController",
+    "Method": "MessageAPI",
+    "RelativePath": "MessageAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "str",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RolesAPI.Controllers.UserController",
     "Method": "RegistrationAPI",
     "RelativePath": "RegistrationAPI",
     "HttpMethod": "POST",

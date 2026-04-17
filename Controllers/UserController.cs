@@ -171,5 +171,14 @@ namespace RolesAPI.Controllers
             return Ok("Пароль успешно изменен");
         }
 
+        [HttpGet("[action]")]
+        public ActionResult MessageAPI(string str)
+        {
+            var message =  _user.Message(str);
+            return Ok(message);
+        }
+        
+
+
     }
 }
